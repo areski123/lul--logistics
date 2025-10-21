@@ -5,11 +5,6 @@ Website for LULé, a specialized logistics company providing flexible and effici
 ## 🚚 About LULé
 
 **Company:** LULé - Logistique Urbaine de Livraison écologique  
-**Tagline:** "Delivering Reliability Across Haut-Rhin"  
-**Established:** 2023  
-**Location:** 51 boulevard Alfred Wallach, 68100 Mulhouse, Haut-Rhin  
-**Phone:** +33 6 51 88 81 44  
-**Email:** idriss.attobi@gmail.com  
 
 ## 🌟 Features
 
@@ -45,53 +40,6 @@ Website for LULé, a specialized logistics company providing flexible and effici
 - **Icons:** Lucide React
 - **Date Handling:** date-fns
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js 18+ 
-- npm or yarn
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd lule-eco-deliveries
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
-
-3. **Start development server**
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   ```
-
-4. **Open your browser**
-   Navigate to `http://localhost:5173`
-
-### Build for Production
-
-```bash
-npm run build
-# or
-yarn build
-```
-
-### Preview Production Build
-
-```bash
-npm run preview
-# or
-yarn preview
-```
-
 ## 📱 Website Sections
 
 1. **Hero Section** - Company introduction with key stats
@@ -117,8 +65,6 @@ The website supports both French and English:
 
 ## 📊 Analytics & Tracking
 
-- **Google Analytics** integration ready
-- Replace `GA_MEASUREMENT_ID` with your actual Google Analytics ID
 - Tracks page views and user interactions
 - Conversion tracking for booking forms
 
@@ -135,27 +81,7 @@ The website supports both French and English:
 - **Headings:** Bold, clear hierarchy
 - **Body:** Readable, accessible text
 
-## 📞 Contact Information
-
-- **Phone:** +33 6 51 88 81 44
-- **Email:** idriss.attobi@gmail.com
-- **Address:** 51 boulevard Alfred Wallach, 68100 Mulhouse, Haut-Rhin
-- **WhatsApp:** +33 6 51 88 81 44
-
 ## 🔧 Customization
-
-### Adding New Services
-1. Update the services array in `src/components/Services.tsx`
-2. Add corresponding translations in `src/contexts/LanguageContext.tsx`
-
-### Modifying Contact Information
-1. Update contact details in `src/components/Contact.tsx`
-2. Update header information in `src/components/Header.tsx`
-
-### Adding New Languages
-1. Extend the `Language` type in `src/contexts/LanguageContext.tsx`
-2. Add translations object for the new language
-3. Update the language switcher logic
 
 ## 📈 SEO Optimization
 
@@ -167,35 +93,9 @@ The website supports both French and English:
 - Fast loading times
 - Clean URL structure
 
-## 🚀 Deployment
-
-### Vercel (Recommended)
-1. Connect your GitHub repository to Vercel
-2. Configure build settings:
-   - Build Command: `npm run build`
-   - Output Directory: `dist`
-3. Deploy automatically on push
-
-### Netlify
-1. Connect repository to Netlify
-2. Set build command: `npm run build`
-3. Set publish directory: `dist`
-
-### Traditional Hosting
-1. Run `npm run build`
-2. Upload `dist` folder contents to your web server
-3. Configure server for SPA routing
-
 ## 📝 License
 
 This project is proprietary software for LULé - Logistique Urbaine de Livraison écologique.
 
-## 🤝 Support
-
-For technical support or questions about the website:
-- **Email:** idriss.attobi@gmail.com
-- **Phone:** +33 6 51 88 81 44
-
----
 
 **LULé** - Delivering Reliability Across Haut-Rhin 🚚
